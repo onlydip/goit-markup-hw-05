@@ -368,8 +368,7 @@ body {
 }
 
 .after-main-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 .porfolio-item-text {
   padding-top: 20px;
@@ -401,8 +400,6 @@ body {
 .masters-social-list {
   display: flex;
   justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .masters-social-item {
@@ -519,10 +516,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
-
+.footer-mail-item {
+  margin-bottom: 9px;
+}
 .footer-mail {
   color: var(--second-text-color);
-  margin-bottom: 9px;
   display: inline-block;
 }
 .footer-mail:hover,
