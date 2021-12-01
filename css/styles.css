@@ -156,6 +156,7 @@ body {
 
 .header-link {
   color: var(--second-tittle-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -163,6 +164,7 @@ body {
 }
 .header-mail {
   color: var(--first-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -171,6 +173,7 @@ body {
 
 .header-tel {
   color: var(--first-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -420,6 +423,8 @@ body {
   justify-content: center;
   background-color: var(--main-title-color);
   color: var(--social-icon);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .masters-social-icon {
@@ -481,6 +486,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover,
@@ -522,6 +528,7 @@ body {
 .footer-mail {
   color: var(--second-text-color);
   display: inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-mail:hover,
 .footer-mail:focus {
@@ -530,6 +537,7 @@ body {
 
 .footer-tel {
   color: var(--second-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -572,6 +580,8 @@ body {
   justify-content: center;
   background-color: var(--footer-social);
   color: var(--main-title-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon {
@@ -595,6 +605,8 @@ body {
 .main-btn {
   color: var(--second-tittle-color);
   background: var(--aftermain-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-btn:hover,
@@ -636,6 +648,7 @@ body {
 }
 .portfolio-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
