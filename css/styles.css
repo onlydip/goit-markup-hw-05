@@ -729,6 +729,12 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
+  transition: transform var(--ms--cubic);
+}
+
+.portfolio-item:hover .portfolio-top-text,
+.portfolio-item:focus .portfolio-top-text {
+  transform: translateY(0);
 }
 
 .portfolio-link {
@@ -781,8 +787,4 @@ body {
   height: 100%;
   transform: translateY(101%);
   transition: transform var(--ms--cubic);
-}
-.portfolio-item:hover .portfolio-top-text,
-.portfolio-item:focus .portfolio-top-text {
-  transform: translateY(0);
 }
